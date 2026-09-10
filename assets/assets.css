@@ -1,0 +1,65 @@
+/* =====================================================
+   PPAS Component Polish (Phase 5)
+   Loaded by app.py on top of the base enterprise theme.
+   ===================================================== */
+
+/* Progress bars - navy */
+.stProgress > div > div > div {
+    background-color: #0F2B52;
+}
+
+/* Expanders - bordered corporate cards */
+details[data-testid="stExpander"] {
+    border: 1px solid #D8DEE7;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+details[data-testid="stExpander"] summary {
+    color: #0F2B52;
+    font-weight: 600;
+}
+
+/* Code / log blocks - audit style */
+.stCode pre,
+.stCodeBlock pre,
+code {
+    background-color: #F4F6F9 !important;
+    border-left: 3px solid #0F2B52;
+    border-radius: 8px;
+    color: #26303B !important;
+}
+
+/* Text inputs */
+.stTextInput input,
+.stTextInput textarea {
+    border-radius: 8px;
+    border: 1px solid #D8DEE7;
+}
+
+.stTextInput input:focus,
+.stTextInput textarea:focus {
+    border-color: #0F2B52;
+}
+
+/* Radio controls */
+.stRadio label span {
+    color: #26303B;
+    font-weight: 600;
+}
+
+/* Captions and help text */
+.stCaption,
+.stMarkdown small {
+    color: #5F6B7A;
+}
+
+/* Dividers */
+hr {
+    border-top: 1px solid #D8DEE7;
+}
+
+/* Success / warning / error radius consistency */
+[data-testid="stAlert"] {
+    border-radius: 10px;
+}
