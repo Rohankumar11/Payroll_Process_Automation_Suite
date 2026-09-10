@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+outputs/
+uploads/
+logs/
+database/*.db
+*.md
+.streamlit/secrets.toml
